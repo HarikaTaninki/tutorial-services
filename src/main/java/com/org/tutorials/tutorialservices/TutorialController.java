@@ -27,7 +27,7 @@ public class TutorialController {
 	@Autowired
 	private TutorialService tutorialService; 
 	
-	@PostMapping("addTutorial")
+	@PostMapping("addTutorial") // add tutorial
 	public int saveTutorial(@RequestBody Tutorials tutorials)
 	{
 		System.out.println("controller");
