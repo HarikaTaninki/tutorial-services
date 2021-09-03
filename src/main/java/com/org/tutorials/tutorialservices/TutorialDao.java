@@ -6,7 +6,7 @@ import com.org.tutorialservices.model.Tutorials;
 
 public interface TutorialDao {
 	 
-	   public int saveTutorial(Tutorials tutorials);  
+	   public int saveTutorial(Tutorials tutorials);  //test
 	    public List<Tutorials> getTutorials();  
 	    public boolean deleteTutorials(Tutorials tutorials);  
 	    public boolean updateTutorials(Tutorials tutorials); 
