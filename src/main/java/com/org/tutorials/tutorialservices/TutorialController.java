@@ -97,7 +97,7 @@ public class TutorialController {
 		boolean status=false;
 		try
 		{
-			tutorials.setTutorial_Id(tutorial_id); // tutorial id 
+			tutorials.setTutorial_Id(tutorial_id); 
 			status=tutorialService.updateTutorials(tutorials);
 		}
 		catch(Exception e)
